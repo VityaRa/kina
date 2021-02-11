@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="kina-base.css">
   <link rel="stylesheet" href="kina-main.css">
   <title>Main page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,12 +34,12 @@
         <h1>Последние новости</h1>
         <div class="slider-body">
           <div class="slider-main">
-            <button class="slider-button" type="submit"></button>
-            <div class="slider-image"></div>
-            <button class="slider-button" type="submit"></button>
+            <button class="slider-button left-btn" type="submit"><div class="arrow left-arrow"></div></button>
+            <div class="slider-image"><img src="./news-images/1.jpg" alt="some problems"></div>
+            <button class="slider-button right-btn" type="submit"><div class="arrow right-arrow"></div></button>
           </div>
           <div class="slider-text">
-            <p>Some text</p>
+            <p></p>
           </div>
         </div>
       </div>
@@ -154,6 +155,7 @@
       <div class="right-foot"></div>
     </footer>
   </div>
+  <script src="slider.js"></script>
 </body>
 
 </html>

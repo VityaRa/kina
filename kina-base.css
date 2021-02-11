@@ -9,7 +9,7 @@
 }
 
 .plumb {
-  min-height: 100px;
+  min-height: 50px;
   background-color: #12172C;
 }
 
@@ -18,7 +18,7 @@ nav {
   top: 0;
   width: 100%;
   position: fixed;
-  padding: 35px 0;
+  padding: 10px 0;
   display: flex;
   background-color: #3F539D;
   justify-content: space-between;
