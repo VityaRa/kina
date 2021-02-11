@@ -1,0 +1,105 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.plumb {
+  min-height: 100px;
+  background-color: #12172C;
+}
+
+nav {
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  padding: 35px 0;
+  display: flex;
+  background-color: #3F539D;
+  justify-content: space-between;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav ul a {
+  color: white;
+  font-size: 20px;
+}
+
+.center-nav {
+  padding: 0 10%;
+  width: 60%;
+}
+
+.left-nav {
+  width: 20%;
+  text-align: center;
+}
+.left-nav a {
+  color: white;
+  font-size: 20px;
+}
+
+.right-nav {
+  width: 20%;
+  text-align: center;
+}
+
+.content {
+  background-color: #12172C;
+  padding: 0 15%;
+}
+
+.recommended {
+  background-color: white;
+}
+
+footer {
+  background-color: #3F539D;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+}
+footer .left-foot {
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 40px;
+}
+footer .right-foot {
+  width: 20%;
+}
+footer .center-foot {
+  width: 60%;
+  padding: 0 10%;
+}
+footer .center-foot ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  width: 200px;
+  margin: auto;
+}
+footer .center-foot p {
+  background-color: #12172C;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 20px 0;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected{
+  color: #B1B1FF;
+}
+/*# sourceMappingURL=kina-base.css.map */

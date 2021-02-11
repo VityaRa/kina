@@ -1,0 +1,86 @@
+.slider {
+  background-color: #0C163B;
+  padding-top: 50px;
+  padding-bottom: 240px;
+  text-align: center;
+}
+.slider .slider-body {
+  width: 690px;
+  height: 560px;
+  background-color: #7185CE;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  margin: auto;
+  margin-top: 70px;
+}
+.slider .slider-body .slider-image {
+  top: 20px;
+  width: 80%;
+  height: 350px;
+  border-radius: 20px;
+  position: relative;
+  background-color: brown;
+}
+.slider .slider-body .slider-text {
+  background-color: #414C76;
+  position: relative;
+  top: 40px;
+  border-radius: 20px;
+  margin: 0 20px;
+  height: 150px;
+  text-align: left;
+}
+.slider .slider-body .slider-text p {
+  padding: 10px 20px;
+}
+.slider .slider-body .slider-main {
+  display: flex;
+}
+.slider .slider-body .slider-main .slider-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recommended {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.recommended h1, .recommended p {
+  color: black;
+}
+.recommended .title, .recommended .sub-title {
+  color: black;
+  letter-spacing: 2px;
+  padding-left: 70px;
+}
+.recommended .film-row {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.recommended .film-row .film-image {
+  width: 360px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.recommended .film-row .film-about {
+  display: flex;
+  justify-content: space-between;
+}
+.recommended .more {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=kina-main.css.map */
