@@ -1,36 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kina.net</title>
+  <link rel="stylesheet" href="kina-base.css">
+  <link rel="stylesheet" href="kina-categories.css">
+  <title>Categories page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="plumb-height.js"></script>
+
 </head>
+
 <body>
+  <div class="return-button"><a href="index.html">MAIN PAGE</a></div>
   <div class="__container base__container">
+    <div class="plumb"></div>
     <nav>
-      <a href="#">Kina.net</a>
-      <ul>
-        <li><a href="kina-categories.html">Категории</a></li>
-        <li><a href="kina-main.html">Главная</a></li>
-        <li><a href="kina-top.html">Топ фильмов</a></li>
-      </ul>
+      <div class="left-nav">
+        <a href="#">kina.net</a>
+      </div>
+      <div class="center-nav">
+        <ul>
+          <li><a class="selected" href="kina-categories.html">Категории</a></li>
+          <li><a href="kina-main.html">&nbsp&nbsp&nbsp Главная</a></li>
+          <li><a href="kina-top.html">Топ фильмов</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <a href="#"></a>
+      </div>
     </nav>
 
     <div class="content">
-      
+      <div class="jenre-container">
+        <h1 class="title jenres">Жанры</h1>
+        <div class="jenre-list">
+          <ul>
+            <li>Драмы</li>
+            <li>Боевики</li>
+            <li>Фэнтэзи</li>
+            <li>Детектив</li>
+            <li>Комедия</li>
+            <li>Приключения</li>
+            <li>Мелодрамы</li>
+            <li>Триллер</li>
+            <li>Трагедия</li>
+          </ul>
+        </div>
+      </div>
+      <div class="jenre-filmes">
+        <h1 class="title">Выберите жанр</h1>
+        <div class="film-list">
+          
+        </div>
+      </div>
     </div>
 
     <footer>
-      <p>By Vityarka</p>
-      <div class="footer__menu">
-        <div class="contact"><p>Связаться со мной</p></div>
+      <div class="left-foot">
+        <p>By Vityarka</p>
+      </div>
+
+      <div class="center-foot">
+        <p>Связаться со мной</p>
         <ul>
           <li><a href="#">GitHub</a></li>
           <li><a href="#">VK</a></li>
           <li><a href="#">LinkedIn</a></li>
         </ul>
       </div>
+
+      <div class="right-foot"></div>
     </footer>
   </div>
+  <script src="slider.js"></script>
 </body>
+
 </html>
