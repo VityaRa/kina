@@ -44,8 +44,8 @@
   display: flex;
 }
 .slider .slider-body .slider-main .slider-button {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 20px;
   border: 0;
   margin-top: auto;
@@ -53,6 +53,12 @@
   margin-left: 20px;
   margin-right: 20px;
   outline: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.slider .slider-body .slider-main .slider-button:hover {
+  transition: 0.3s;
+  background-color: #12172C;
 }
 .slider .slider-body .slider-main .arrow {
   position: relative;
@@ -86,20 +92,24 @@
 .recommended .title, .recommended .sub-title {
   color: black;
   letter-spacing: 2px;
-  padding-left: 70px;
+  text-align: center;
 }
-.recommended .film-row {
+.recommended .film-list {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.recommended .film-row .film-image {
+.recommended .film-list .film-card {
+  padding: 20px 10px;
+}
+.recommended .film-list .film-image {
   width: 360px;
   height: 150px;
   border-radius: 10px;
   border: 1px solid black;
 }
-.recommended .film-row .film-about {
+.recommended .film-list .film-about {
   display: flex;
   justify-content: space-between;
 }

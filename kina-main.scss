@@ -43,8 +43,8 @@
     .slider-main{
       display: flex;
       .slider-button{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border-radius: 20px;
         border: 0;
         margin-top: auto;
@@ -52,6 +52,12 @@
         margin-left: 20px;
         margin-right: 20px;
         outline: none;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .6);
+      }
+      .slider-button:hover{
+        transition: .3s;
+        background-color: #12172C;
       }
       .arrow{
         position: relative;
@@ -90,15 +96,16 @@
   .title, .sub-title {
     color: black;
     letter-spacing: 2px;
-    padding-left: 70px;
+    text-align: center;
   }
 
-  .film-row{
+  .film-list{
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     .film-card{
-
+      padding: 20px 10px;
     }
     .film-image{
       width: 360px;
