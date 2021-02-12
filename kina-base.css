@@ -23,12 +23,21 @@ nav {
   background-color: #3F539D;
   justify-content: space-between;
 }
+nav a {
+  transition: .3s;
+}
+
+nav a:hover{
+  color: #12172C;
+}
+
 nav ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
+
 nav ul a {
   color: white;
   font-size: 20px;
