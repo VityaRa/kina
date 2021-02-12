@@ -15,6 +15,7 @@
     list-style: none;
     justify-content: space-evenly;
     text-align: center;
+    padding: 0 20px;
     li {
       background-color: #3F539D;
       padding: 10px 40px;
@@ -34,8 +35,23 @@
     color: black;
   }
   .film-list{
-    padding-top: 20px;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     //visibility: hidden;
-
+    .film-card{
+      padding: 20px 10px;
+    }
+    .film-image{
+      width: 360px;
+      height: 150px;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+    .film-about{
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
