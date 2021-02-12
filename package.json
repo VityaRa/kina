@@ -1,0 +1,21 @@
+{
+  "name": "kina",
+  "version": "1.0.0",
+  "description": "kina site",
+  "main": "kina-main.html",
+  "scripts": {
+    "watch-m": "sass --watch kina-main.scss:kina-main.css",
+    "watch-c": "sass --watch kina-categories.scss:kina-categories.css",
+    "watch-t": "sass --watch kina-top.scss:kina-top.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VityaRa/kina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VityaRa/kina/issues"
+  },
+  "homepage": "https://github.com/VityaRa/kina#readme"
+}
