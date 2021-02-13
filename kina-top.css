@@ -11,6 +11,19 @@
 }
 .top-content h1, .top-content p {
   color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.top-content .rate {
+  color: red;
+}
+.top-content .rate-count {
+  font-weight: 500;
+  color: grey;
+}
+.top-content .top-film-jenres {
+  font-weight: 500;
+  color: grey;
 }
 .top-content .top-list {
   padding-left: 10%;
