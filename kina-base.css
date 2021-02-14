@@ -112,13 +112,13 @@ footer .center-foot p {
   color: #B1B1FF;
 }
 
-.film-image{
+.film-image, .top-card-image{
     box-shadow: 0 0 10px black;
     width: 200px;
     height: 300px;
     border-radius: 10px;
     border: 1px solid black;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 /*# sourceMappingURL=kina-base.css.map */
