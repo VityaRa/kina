@@ -43,6 +43,9 @@
 .top-content .top-list .top-card .top-card-about .top-card-description {
   padding-left: 20px;
 }
+.top-content .top-list .top-card .top-card-about .top-card-rating {
+  text-align: right;
+}
 .top-content .top-list .top-card .top-card-image {
   width: 100px;
   height: 130px;
