@@ -44,14 +44,14 @@
   padding: 20px 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .jenre-filmes .film-list .film-card {
   padding: 20px 10px;
 }
 .jenre-filmes .film-list .film-image {
-  width: 360px;
-  height: 150px;
+  width: 200px;
+  height: 300px;
   border-radius: 10px;
   border: 1px solid black;
   background-size: 100%;
