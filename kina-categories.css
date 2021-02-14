@@ -25,13 +25,19 @@
   margin: 20px 10px;
   font-size: 20px;
   width: 140px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.jenre-list ul li:hover {
+  color: #12172C;
+  background-color: white;
 }
 
 .jenre-filmes {
   background-color: white;
   min-height: 100vh;
 }
-.jenre-filmes h1 {
+.jenre-filmes h1, .jenre-filmes p {
   color: black;
 }
 .jenre-filmes .film-list {
