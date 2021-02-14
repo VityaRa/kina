@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   $('.left-btn').on('click', () => {
     --i
-    if (i < 1) i = imageCount - 1
+    if (i < 1) i = imageCount
     renderSlider()
   })
 
