@@ -106,19 +106,25 @@
     flex-wrap: wrap;
     .film-card{
       padding: 20px 10px;
+
     }
+    /*
     .film-image{
-      width: 360px;
-      height: 150px;
+      box-shadow: 0 0 10px black;
+      width: 200px;
+      height: 300px;
       border-radius: 10px;
       border: 1px solid black;
-    }
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }*/
     .film-about{
       display: flex;
       justify-content: space-between;
     }
   }
   .more{
+    visibility: hidden;
     padding-top: 20px;
     text-align: center;
     font-size: 30px;

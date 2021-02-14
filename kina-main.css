@@ -99,21 +99,26 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  /*
+  .film-image{
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }*/
 }
 .recommended .film-list .film-card {
   padding: 20px 10px;
-}
-.recommended .film-list .film-image {
-  width: 360px;
-  height: 150px;
-  border-radius: 10px;
-  border: 1px solid black;
 }
 .recommended .film-list .film-about {
   display: flex;
   justify-content: space-between;
 }
 .recommended .more {
+  visibility: hidden;
   padding-top: 20px;
   text-align: center;
   font-size: 30px;

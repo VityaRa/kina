@@ -45,17 +45,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /*.film-image{
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }*/
 }
 .jenre-filmes .film-list .film-card {
   padding: 20px 10px;
-}
-.jenre-filmes .film-list .film-image {
-  width: 200px;
-  height: 300px;
-  border-radius: 10px;
-  border: 1px solid black;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 .jenre-filmes .film-list .film-about {
   display: flex;
