@@ -8,6 +8,9 @@
   color: white;
 }
 
+.content{
+  overflow: hidden;
+}
 .right-pos{
   transform: translateX(12px);
 }
@@ -147,7 +150,7 @@ footer .center-foot p {
     transform: translateX(0px);
   }
   .plumb{
-    height: 80px;
+    height: 110px;
   }
   .left-nav{
     margin: auto;
@@ -186,12 +189,8 @@ footer .center-foot p {
   .left-foot{
     padding-top: 20px !important;
   }
-}
-
-@media screen and (max-width: 420px) {
   .content {
     padding: 0;
   }
 }
-
 /*# sourceMappingURL=kina-base.css.map */
