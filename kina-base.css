@@ -8,6 +8,10 @@
   color: white;
 }
 
+.right-pos{
+  transform: translateX(12px);
+}
+
 .plumb {
   min-height: 50px;
   background-color: #12172C;
@@ -83,6 +87,9 @@ footer .left-foot {
   margin-bottom: auto;
   font-size: 40px;
 }
+footer .left-foot p{
+  font-size: 3vw;
+}
 footer .right-foot {
   width: 20%;
 }
@@ -121,4 +128,70 @@ footer .center-foot p {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.center-foot ul li a{
+  transition: .3s;
+}
+
+.center-foot ul li a:hover {
+  color: #12172C;
+}
+
+
+@media screen and (max-width: 920px) {
+  nav ul{
+    display: block;
+    text-align: center;
+  }
+  .right-pos{
+    transform: translateX(0px);
+  }
+  .plumb{
+    height: 80px;
+  }
+  .left-nav{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-wrap: wrap;
+  
+  }
+  .center-foot{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .left-nav {
+    display: none;
+  }
+  .left-foot p {
+    font-size: 20px !important;
+  }
+  .center-nav{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .plumb{
+    height: 110px;
+  }
+  footer > div {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .left-foot{
+    padding-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content {
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=kina-base.css.map */
