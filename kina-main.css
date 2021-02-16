@@ -99,16 +99,6 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /*
-  .film-image{
-    box-shadow: 0 0 10px black;
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    border: 1px solid black;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }*/
 }
 .recommended .film-list .film-card {
   padding: 20px 10px;
@@ -123,6 +113,46 @@
   text-align: center;
   font-size: 30px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1060px) {
+  .slider-body {
+    width: 100% !important;
+    height: auto !important;
+    padding-bottom: 30px !important;
+  }
+  .slider-body .slider-main {
+    width: inherit !important;
+    height: inherit !important;
+  }
+  .slider-body .slider-main .slider-image {
+    height: auto !important;
+  }
+  .slider-body .slider-main .slider-button {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .slider-body .slider-text {
+    top: 0 !important;
+    margin-top: 40px !important;
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .slider-button {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-radius: 0 !important;
+  }
+
+  .slider-image {
+    margin: auto !important;
+    width: 100% !important;
+  }
+
+  .slider-body {
+    border: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=kina-main.css.map */
